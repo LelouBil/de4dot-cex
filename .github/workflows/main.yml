@@ -9,10 +9,10 @@ jobs:
 
     steps:
     - name: Setup MSBuild.exe
-      uses: warrenbuckley/Setup-MSBuild@v1
+      uses: microsoft/setup-msbuild@v1.0.2
       
     - name: Setup Nuget.exe
-      uses: warrenbuckley/Setup-Nuget@v1
+      uses: https://github.com/NuGet/setup-nuget
       
     - uses: actions/checkout@v1
     - name: Build
