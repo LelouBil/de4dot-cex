@@ -12,7 +12,7 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.2
       
     - name: Setup Nuget.exe
-      uses: https://github.com/NuGet/setup-nuget
+      uses: nuget/setup-nuget@v1
       
     - uses: actions/checkout@v1
     - name: Build
